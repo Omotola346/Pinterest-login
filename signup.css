@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.sign{
+    box-shadow: 5px 5px 10px grey ;
+    border-radius: 10px;
+    width: 50%;
+    
+}
+#logo img{
+    height: 5rem;
+}
+
+a{
+    color: rgb(49, 49, 49) !important;
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+a:hover{
+    text-decoration-thickness: 2px;
+    /* transition: 2s; */
+}
+
+p{
+    color: 
+    rgb(118, 118, 118);
+    font-size: 20px;
+}
+
+p:nth-of-type(3) a:hover{
+    text-decoration: none;
+    }
+
+    button{
+        border-radius: 25px;
+        height: 3.5rem;
+        font-size: 20px;
+        font-weight: 600;
+        
+    }
+    #email{
+        background-color: rgb(230,0,35);
+        color: white;
+        border: none;
+    }
+    #email:hover{
+        background-color: rgb(185, 33, 33);
+        
+    }
+    #google{
+        background-color: white;
+       border:2px solid rgb(198, 196, 196);
+    }
+    
+    #google:hover{
+        background-color: rgb(225, 237, 252);
+        transition: 2s;
+    }
+    button img{
+        height: 2rem; 
+    }
+    #shadow{
+        height: 1px;
+        background-color: rgb(244, 244, 244);
+        border-radius: 7px;
+        /* display: flex; */
+        /* justify-self: center; */
+    }
+
+   
+@media (max-width:765px) {
+    .sign{
+        width: 90%;
+    }
+    #email{
+        font-size: 18px;
+    }
+    #google{
+        font-size: 18px;
+    }
+
+}
+
+
+
+
+
+   
