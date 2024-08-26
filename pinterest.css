@@ -2,7 +2,6 @@ body{
     background-color: white;
     width: 100%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    /* overflow-y: hidden; */
 }
 div:nth-of-type(1){
     display: flex;
@@ -10,7 +9,6 @@ div:nth-of-type(1){
 }
 #logo{
     height: 3.5rem;
-    /* text-align: center; */
 }
 
 h1{
@@ -72,6 +70,7 @@ button img{
     color: white;
     font-size: 15px;
     font-weight: 600;
+    text-wrap: wrap;
 }
 
 #google{
@@ -109,24 +108,24 @@ text-decoration: none;
 }
 @media (max-width:1290px) {
     form{
-       width: 40%;
+       width: 60%;
     }
 }
 @media (max-width:765px) {
-    .form{
+    form{
         width: 80%;
     }
     h1{
         font-size: 22px !important;
     }
     #login{
-        font-size: 1rem;
+        font-size: 15px;
     }
     #facebook{
-        font-size: 1rem;
+        font-size: 15px;
     }
     #google{
-        font-size: 1rem; 
+        font-size: 15px; 
     }
 
     button img{

@@ -47,7 +47,7 @@ div p:nth-of-type(2) a:hover{
     }
     #email:hover{
         background-color: rgb(185, 33, 33);
-        
+        /* text-wrap: wrap; */
     }
     #google{
         background-color: white;
@@ -75,7 +75,7 @@ div p:nth-of-type(2) a:hover{
 
    @media (max-width:1290px) {
    .sign{
-    width: 50%;
+    width: 70%;
    }
    }
 @media (max-width:765px) {
