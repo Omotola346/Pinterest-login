@@ -6,16 +6,16 @@ body{
 .sign{
     box-shadow: 5px 5px 10px grey ;
     border-radius: 10px;
-    width: 50%;
+    /* width: 50%; */
     
 }
 #logo img{
-    height: 5rem;
+    height: 3.5rem;
 }
 
 a{
     color: rgb(49, 49, 49) !important;
-    font-size: 1.2rem;
+    font-size: 12px;
     font-weight: 600;
 }
 a:hover{
@@ -23,20 +23,20 @@ a:hover{
     /* transition: 2s; */
 }
 
-p{
-    color: 
-    rgb(118, 118, 118);
-    font-size: 20px;
-}
 
-p:nth-of-type(3) a:hover{
+    div p{
+        color: rgb(118, 118, 118);
+        font-size: 12px ;
+    }
+
+div p:nth-of-type(2) a:hover{
     text-decoration: none;
     }
 
     button{
         border-radius: 25px;
-        height: 3.5rem;
-        font-size: 20px;
+        height: 2.5rem;
+        font-size: 15px;
         font-weight: 600;
         
     }
@@ -69,7 +69,15 @@ p:nth-of-type(3) a:hover{
         /* justify-self: center; */
     }
 
-   
+    .col-md-7{
+        margin: auto;
+    }
+
+   @media (max-width:1290px) {
+   .sign{
+    width: 50%;
+   }
+   }
 @media (max-width:765px) {
     .sign{
         width: 90%;
